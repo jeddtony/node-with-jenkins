@@ -7,10 +7,10 @@ router.get('/', async (req, res) => {
         message: "My Rule-Validation API",
         status: "success",
         data: {
-          name: "Jedidiah Anthony",
+          name: "Jed Tony",
           github: "@jeddtony",
-          email: "jedidiahanthony@gmail.com",
-          mobile: "08132387257",
+          email: "jedtony@gmail.com",
+          mobile: "",
           twitter: "@JeddTony",
         },
       });
