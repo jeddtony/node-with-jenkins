@@ -9,7 +9,7 @@ router.get('/', async (req, res) => {
         data: {
           name: "Jed Tony",
           github: "@jeddtony",
-          email: "jedtony@gmail.com",
+          email: "je@gmail.com",
           mobile: "",
           twitter: "@JeddTony",
         },
