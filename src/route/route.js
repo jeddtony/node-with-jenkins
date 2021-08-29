@@ -9,9 +9,9 @@ router.get('/', async (req, res) => {
         data: {
           name: "Jed Tony",
           github: "@jeddtony",
-          email: "je@gmail.com",
+          email: "jed@gmail.com",
           mobile: "",
-          twitter: "@JeddTony",
+          twitter: "@Tony",
         },
       });
 });
