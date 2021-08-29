@@ -2,9 +2,15 @@ pipeline {
     agent any
 
     stages {
-        stage('Clean') {
+        stage('CleanArchive') {
             steps {
                 sh 'rm -rf *.tar.gz'
+                echo 'done cleaning'
+            }
+        }
+        stage('CleanTargetFolder') {
+            steps {
+                sh 'rm -rf node_modules src index.js package.json server.js'
                 echo 'done cleaning'
             }
         }
