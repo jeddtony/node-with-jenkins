@@ -11,7 +11,7 @@ router.get('/', async (req, res) => {
           github: "@jeddtony",
           email: "jed@gmail.com",
           mobile: "",
-          twitter: "@Tony",
+          twitter: "@main",
         },
       });
 });
