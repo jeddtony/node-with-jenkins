@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
           name: "Jed Tony",
           github: "@jeddtony",
           email: "jed@gmail.com",
-          mobile: "add inpm install",
+          mobile: "restart jenkins",
           twitter: "@main",
         },
       });
