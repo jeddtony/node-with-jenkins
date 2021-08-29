@@ -10,7 +10,7 @@ pipeline {
         }
         stage('CleanTargetFolder') {
             steps {
-                sh 'rm -rf node_modules src index.js package.json server.js'
+                sh 'rm -rf /var/www/html/node_modules /var/www/html/src /var/www/html/index.js /var/www/html/package.json /var/www/html/server.js'
                 echo 'done cleaning'
             }
         }
